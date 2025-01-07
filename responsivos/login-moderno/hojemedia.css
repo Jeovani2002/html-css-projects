@@ -1,0 +1,36 @@
+
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    section#login{
+        width: 90vw;
+        height: 280px;
+    }
+    section#login form .login_form{
+        float: right;
+        width: 70%;
+    }
+    section#login .login_img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+}
+
+
+@media (min-width: 992px) {
+    section#login{
+        width: 950px;
+        height: 320px;
+    }
+    section#login form .login_form{
+        float: left;
+        width: 50%;
+    }
+    section#login .login_img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    
+}
